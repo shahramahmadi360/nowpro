@@ -48,6 +48,12 @@ body {
   height: 42.8px;
   background-color: #55cbdd;
   border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
 }
 .conttent_three {
   width: 100%;
@@ -201,4 +207,8 @@ body {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+}
+.fa-solid,
+.fa-person-snowboarding {
+  font-size: x-large;
 }
