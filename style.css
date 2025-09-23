@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2a93a3;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+}
+
+.conttent_one {
+  width: 100%;
+  height: 150px;
+  background-color: #309c4b;
+}
+
+.conttent_one_1 {
+  width: 100%;
+  height: 50px;
+  background-color: #387999;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.conttent_tow {
+  width: 100%;
+  height: 300px;
+  background-color: #309c4b;
+}
+
+.conttent_tow_1 {
+  width: 100%;
+  height: 42.8px;
+  background-color: #55cbdd;
+  border: 1px solid red;
+}
+.conttent_three {
+  width: 100%;
+  height: 150px;
+  background-color: #309c4b;
+}
+
+.conttent_three_1 {
+  width: 100%;
+  height: 51px;
+  background-color: #40a4d6;
+  border: 1px solid rgb(124, 90, 90);
+}
+
+.foter {
+  width: 100vw;
+  height: 50px;
+  background-color: #1dbbe2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.foter_intwo {
+  width: 350px;
+  height: 50px;
+  background-color: azure;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intow_1 {
+  width: 50px;
+  height: 100%;
+  background-color: aqua;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foter_three {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.three-3 {
+  width: 100%;
+  height: 100%;
+  background-color: #2a93a3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foter_fure {
+  width: 100px;
+  height: 40px;
+  background-color: #eee;
+  margin-top: 4px;
+  border-end-end-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+.fure_4 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(21, 187, 187);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.foter_fife {
+  width: 150px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.fife_5 {
+  width: 100%;
+  height: 100%;
+  background-color: #cee4e7;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fife-5_2 {
+  width: 50px;
+  height: 50px;
+  background-color: #2a93a3;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fa-regular,
+.fa-bell {
+  font-size: x-large;
+}
+
+.foter_one {
+  width: 150px;
+  height: 100%;
+  background-color: #2a93a3;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.fa-brands,
+.fa-youtube {
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+.fater_tow_and_three {
+  width: 400px;
+  height: 100%;
+  background-color: #cee4e7;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.foter-fife_adn_foure {
+  width: 300px;
+  height: 100%;
+  background-color: #c4cbcc;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
