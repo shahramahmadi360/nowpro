@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0c0c;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  width: 250px;
+  height: 100vh;
+  background-color: #080808;
+  border-right: 1px solid #0a0808;
+  color: white;
+}
+
+.conttent_one {
+  width: 100%;
+  height: 150px;
+  background-color: #0a0c0b;
+  color: white;
+}
+
+.conttent_one_1 {
+  width: 100%;
+  height: 50px;
+  background-color: #111111;
+  border: 1px solid rgb(14, 13, 13);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  color: white;
+
+  padding-left: 10px;
+}
+
+.conttent_tow {
+  width: 100%;
+  height: 300px;
+  background-color: #090a0a;
+  color: white;
+}
+
+.conttent_tow_1 {
+  width: 100%;
+  height: 42.8px;
+  background-color: #0b0c0c;
+  border: 1px solid rgb(15, 14, 14);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
+  color: white;
+}
+
+.conttent_three_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+
+  align-items: center;
+}
+
+.conttent_three_one {
+  width: 100%;
+  height: 50px;
+  /* background: rgb(10, 6, 6); */
+  border: 1px solid #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+
+  gap: 5px;
+}
+.foter {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 1060px) {
+  .foter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media (max-width: 990px) {
+  .foter_intwo {
+    /* width: 100px;
+    display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    gap: 0px !important;
+  }
+  .foter_intwo {
+    width: 100px;
+    border: 0px !important;
+    background-color: none;
+  }
+  .intow_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    background-color: none !important;
+  }
+
+  .intow_1 {
+    width: 50px;
+    background-color: none;
+  }
+
+  .fater_tow_and_three {
+    width: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .fater_tow_and_three {
+    display: none !important;
+  }
+  .foter_intwo {
+    display: none !important;
+  }
+}
+
+.foter_intwo {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(5, 5, 5);
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  border: 1px solid white;
+}
+
+.intow_1 {
+  width: 50px;
+  height: 100%;
+  background-color: #0e1616;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 0% 50% 50% 0%;
+  border: 1px solid white;
+  border-bottom-right-radius: 20%;
+}
+
+.foter_three {
+  width: 50px;
+  height: 50px;
+  background-color: #0c0b0b;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.three-3 {
+  width: 100%;
+  height: 100%;
+  background-color: #0e1616;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foter_fure {
+  width: 100px;
+  height: 40px;
+  background-color: #0f0c0c;
+  margin-top: 4px;
+  border-end-end-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+.fure_4 {
+  width: 100%;
+  height: 100%;
+  background-color: #0e1616;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .fure_4 {
+    display: none;
+  }
+  .fife_5 {
+    display: none !important;
+  }
+  .content {
+    display: none;
+  }
+  .foter_fure {
+    display: none;
+  }
+  /* .fa-brands,
+  fa-youtube {
+    display: none !important;
+  } */
+
+  .foter {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .fa-brands,
+  fa-youtube {
+    display: none !important;
+  }
+  .foter-fife_adn_foure {
+    display: none !important;
+  }
+}
+
+.foter_fife {
+  width: 150px;
+  height: 100%;
+  background-color: #0e0d0d;
+}
+
+.fife_5 {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fife-5_2 {
+  width: 50px;
+  height: 50px;
+  background-color: #080808;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fa-regular,
+.fa-bell {
+  font-size: x-large;
+}
+
+.foter_one {
+  width: 150px;
+  height: 100%;
+  /* background-color: #050505; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5px;
+  color: white;
+}
+
+.fa-brands,
+.fa-youtube {
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+.fater_tow_and_three {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.foter-fife_adn_foure {
+  width: 300px;
+  height: 100%;
+  /* background-color: #0b0c0c; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.fa-solid,
+.fa-person-snowboarding {
+  font-size: x-large;
+  color: white;
+}
+
+.center {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+.content_and_center {
+  width: 100%;
+  height: 100%;
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+}
+
+.center_one {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.center_one_1 {
+  width: 250px;
+  height: 150px;
+}
+.center_one_1,
+img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
